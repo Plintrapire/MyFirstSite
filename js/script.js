@@ -178,7 +178,7 @@ switch ("Коля"){
       } 
 */
 
-
+/*
 var a, b, c;
 a=8;
 b=18;
@@ -202,3 +202,54 @@ else
       break;
              }
 }
+*/
+
+/*
+var o=1;
+var sum=1;
+while(o<10) {
+	o++;
+	sum= sum+o;
+	console.log(sum);
+}
+*/
+
+
+
+
+var a = 0;
+var sum = 0;
+do 
+{
+a=a+2;
+sum = a+sum;
+}
+while(a<50)
+console.log(sum); 
+
+
+
+console.log("----凸(¬◡¬)凸----");
+
+
+
+var Quadrat = {
+color:"Red",
+size:"25cm*25cm",
+temperature:"-40°",
+material:"Iron",
+count:"4 objects"
+}
+
+for(var key in Quadrat){
+        console.log(key);
+      }
+console.log("----凸(¬◡¬)凸----");
+for(var key in Quadrat){
+        console.log(Quadrat[key]);
+      }
+
+
+
+
+
