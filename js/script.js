@@ -216,7 +216,7 @@ while(o<10) {
 
 
 
-
+/*
 var a = 0;
 var sum = 0;
 do 
@@ -248,6 +248,21 @@ console.log("----凸(¬◡¬)凸----");
 for(var key in Quadrat){
         console.log(Quadrat[key]);
       }
+*/
+
+var myFunction = function()
+
+var Lines = function() {
+   var a = prompt ('Теория алгоритмов')
+   var b = prompt ('Технические средства информатизации')
+   var c = prompt ('Операционные системы')
+   var lines1 = a + " " + b + " " + c;
+   return lines1;
+}      
+
+var low_lines = ruProm(),
+console.log(low_lines);
+
 
 
 
