@@ -88,7 +88,7 @@ float:	right;
 border-bottom: 2px solid green;
 margin-right: 215px;
 margin-top: -56px;
-background-color: #23FF22;
+background-color: #E6E6FA;
  }
 
  .reg
@@ -100,7 +100,7 @@ background-color: #23FF22;
 border-bottom: 2px solid green;
 margin-right: 60px;
 margin-top: -56px;
-background-color: #23FF22;
+background-color: #E6E6FA;
 }
 
 .car1{
@@ -183,7 +183,7 @@ margin-top: -24px;
 float: right;
 }
 input {
-background-color: #00ff38;
+background-color: #E6E6FA;
 }
 
 .block1{
@@ -198,6 +198,7 @@ transform: rotate(90deg);
 
 .block1:hover{
 transform: rotate(180deg);
+border-color: red;
 transform: scale(1.2);
 }
 
@@ -210,3 +211,33 @@ position: fixed;
 float: left;
 bottom: 0px;
 }
+
+.haracter1{
+ width: 44%;
+ height: 50px;
+ float: left;
+ margin-left: 58px;
+ margin-top: 10px;
+ background-color: red;
+ display: none;
+}
+
+.haracter1-content {
+display: none;
+ background-color: red;
+}
+
+.haracter1 input:checked ~ .haracter1-content {
+display: block;
+ background-color: red;
+}
+
+.haracter1 input {
+display: none;
+ background-color: red;
+}
+.haracter1 h6 {
+cursor: pointer;
+ background-color: red;
+}
+

@@ -250,6 +250,7 @@ for(var key in Quadrat){
       }
 */
 
+/*
 var myFunction = function()
 
 var Lines = function() {
@@ -262,6 +263,33 @@ var Lines = function() {
 
 var low_lines = ruProm(),
 console.log(low_lines);
+*/
+
+/*
+var myStrExam = function(Str) {
+  //var tmp1 = Str.replace ("y", "Y");
+  //return tmp1;
+
+  //var tmp2 = Str.slice (1,3);
+  //return tmp2;
+
+  //var tmp3 = Str.substring (1,8);
+  //return tmp3;
+  
+  //var tmp4 = Str.toUpperCase ();
+  //return tmp4;
+
+  //var tmp5 = Str.lastIndexOf ("h");
+  //return tmp5;
+
+  //var t="t";
+  //var tmp20 = Str.split(t);
+  //return tmp20
+}
+var r1 = myStrExam("yet another conference");
+console.log(r1);
+*/
+
 
 
 
