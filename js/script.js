@@ -1,4 +1,4 @@
-﻿/*
+/*
 var a, b;
 a=17;
 b=17;
@@ -291,8 +291,69 @@ console.log(r1);
 */
 
 
+/*
+console.log("------join------");
+var a, b;
+a = new Array(0,1,2,3,4);
+b = a.join("-");
+console.log(b);
 
+console.log("------reverse------");
+var arr2 = ['a', 'b', 'c'];
+arr2.reverse();
+console.log(arr2);
 
+console.log("------sort------");
+var arr3 = ["Банан", "Апельсин", "Яблоко", "Манго"];
+console.log(arr3.sort());
 
+console.log("------concat------");
+var arr4 = ['Один', 'Два'];
+var arr5 = ['Три', 'Четыре'];
+result = arr4.concat(arr5);
+console.log(result);
+
+console.log("------slice------");
+var arr6 = ['a', 'b', 'c', 'd', 'e'];
+console.log(arr6.slice(0, 2))
+
+console.log("------unshift------");
+var arr7 = ['a', 'b', 'c'];
+arr7.unshift('d', 'e');
+console.log(arr7);
+
+console.log("------shift------");
+var arr8 = ['a', 'b', 'c', 'd', 'e'];
+arr8.shift();
+console.log(arr8);
+
+console.log("------toString------");
+var user = {
+  name: 'Андрей',
+  toString: function() {
+    return this.name;
+  }
+};
+console.log('Привет ' + user);
+
+console.log("------toLocaleString------");
+var data = new Date().toLocaleString();
+console.log(data);
+*/
+$(document).ready(function(){
+
+$(".menu").click(function(){ 
+    $(".podpunkt").slideToggle(1000);
+});
+
+$(".reg").click(function(){ 
+    $(".register").slideToggle(1000);
+});
+
+  $(".sign").click(function(){ 
+    $(".sign-obc").slideToggle(1000);
+});
+
+});
 
 

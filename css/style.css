@@ -12,8 +12,8 @@
 }
 
 .menu {
- width: 11%;
- height: 360px;
+ width: 180px;
+ height: 85px;
  float: left;
  margin-top: 50px;
  margin-left: 50px;
@@ -22,9 +22,11 @@
 }
   
 .podpunkt{
- width: 181px;
- height:  277px;
- margin-left: 25px;
+ width: 100%;
+ height:  250px;
+ background-color: #964170;
+ display:none;
+ text-align: center;
 }
 
 .car-obc { 
@@ -67,17 +69,27 @@ border-bottom: 3px solid green;
 margin-right: 60px;
 margin-top: -55px;
 background-color: #23FF22;
+
+
 }
 
 .sing-txt{
 margin-top: -10px;
+text-align: center;
 }
 
-.reg-txt a {
-text-decoration: none;
+.reg-txt {
+font-size: 15pt;
+margin-top: 5px;
 color: #000;
+text-align: center;
+margin-top: -18px;
 }
+.reg-txt a{
 
+	color: #000;
+	text-decoration: none;
+}
 
 
 .sign
@@ -94,9 +106,8 @@ background-color: #E6E6FA;
  .reg
 {
  width: 125px;
- height: 
-
- float:	right;
+ height :  ;
+float:	right;
 border-bottom: 2px solid green;
 margin-right: 60px;
 margin-top: -56px;
@@ -157,16 +168,20 @@ height: 100%;
 body{background-color: #E6E6FA}
 
 .form1{
-width: 343px;
-height: 304px;
-margin-top: 94px;
+width: 100%;
+height: 100%;
+margin-left: 8%;
 }
 .register{
-width: 343px;
-height: 400px;
-margin-left: 350px;
-margin-top: 50px;
+width: 333px;
+height: 255px;
+margin-left: -148px;
+background-color: #964170;
+top: 109px;
+position: absolute;
+display:none;
 }
+
 
 .poisk {
 
@@ -212,32 +227,27 @@ float: left;
 bottom: 0px;
 }
 
-.haracter1{
- width: 44%;
- height: 50px;
- float: left;
- margin-left: 58px;
- margin-top: 10px;
- background-color: red;
- display: none;
+.sign-obc{
+width: 333px;
+height: 170px;
+margin-left: -43px;
+background-color: #964170;
+top: 109px;
+position: absolute;
+display:none;
 }
 
-.haracter1-content {
-display: none;
- background-color: red;
-}
 
-.haracter1 input:checked ~ .haracter1-content {
-display: block;
- background-color: red;
+.car1-obc{
+width: 44%;
+height: 50px;
+float: left;
+margin-left: 58px;
+margin-top: 10px;
+background-color: #964170;
 }
-
-.haracter1 input {
-display: none;
- background-color: red;
+.car1-obc-xar{
+width: 100%;
+height: 100px;
+background-color: #964170;
 }
-.haracter1 h6 {
-cursor: pointer;
- background-color: red;
-}
-
