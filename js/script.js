@@ -340,9 +340,11 @@ console.log("------toLocaleString------");
 var data = new Date().toLocaleString();
 console.log(data);
 */
+
+
 $(document).ready(function(){
 
-  $(".menu").click(function(){ 
+ $(".menu").click(function(){ 
     $(".podpunkt").slideToggle(1000);
 });
 
@@ -356,14 +358,27 @@ $(document).ready(function(){
 
   $(".car1-obc").click(function(){
    $(".car1-obc-xar").slideToggle(1000);
-  /* $(".car1-obc-info").css("height","717");*/
+  $(".car1-obc-info").css("height","717");
   }); 
 
 
   $(".car2-obc").click(function(){ 
    $(".car2-obc-xar").slideToggle(1000);
-   /*$(".car2-obc-info").css("height","717");*/
+   $(".car2-obc-info").css("height","717");
 });
+
+
+
+
+/*
+$(".menu").click(function(){ 
+  //$(".menu").remove();
+  //$("div").removeClass("Job");
+  //alert($(".podpunkt").text());
+  //$(".menu").after($(".menu").clone());
+  //$("<h3>jQuery</h3>").replaceAll(".menu");
+   });
+   */
 });
 
 
