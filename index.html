@@ -10,7 +10,7 @@
 </head>
 <body>
    
-    <div class = Job>
+    <div id = Job class="Job">
         <div class = logotip>
             <img class= "ogo2" src="img/Lamborghini-logo-904x1024.png">
         </div>
@@ -26,11 +26,11 @@ Lamborghini
 
             <div class = sign-obc>
                 
-                <form autocomplete="on">
+                <form action = "php/controller.php" method = "POST" autocomplete="on">
                     <div class = "form1">
                         
-                        <div class = reg-sing-windows2><input type="text"placeholder="Введите вашу эл. почту"></div>
-                        <div class = reg-sing-windows3><input type="text" placeholder="Введите пароль"></div>
+                        <div class = reg-sing-windows2> Электронная почта: <input type="text"placeholder="Введите вашу эл. почту">  </div>
+                        <div class = reg-sing-windows3> Пароль: <input type="text" placeholder="Введите пароль">  </div>
                           <div class = reg-sing-windows4><input type="submit" value="Войти"></div>
                     </div>
                 </form>

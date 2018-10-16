@@ -346,15 +346,15 @@ $(document).ready(function(){
 
  $(".menu").click(function(){ 
     $(".podpunkt").slideToggle(1000);
-});
+  });
 
   $(".reg").click(function(){ 
     $(".register").slideToggle(1000);
-});
+  });
 
   $(".sign").click(function(){ 
     $(".sign-obc").slideToggle(1000);
-});
+  });
 
   $(".car1-obc").click(function(){
    $(".car1-obc-xar").slideToggle(1000);
@@ -364,13 +364,10 @@ $(document).ready(function(){
 
   $(".car2-obc").click(function(){ 
    $(".car2-obc-xar").slideToggle(1000);
-   $(".car2-obc-info").css("height","717");
+  $(".car2-obc-info").css("height","717");
+  });
 });
-
-
-
-
-/*
+/* 
 $(".menu").click(function(){ 
   //$(".menu").remove();
   //$("div").removeClass("Job");
@@ -378,7 +375,35 @@ $(".menu").click(function(){
   //$(".menu").after($(".menu").clone());
   //$("<h3>jQuery</h3>").replaceAll(".menu");
    });
-   */
+   
 });
+*/ 
 
 
+/*
+var ring = {};
+ring.radius = "5 cm";
+ring.bcolor = "Bronze";
+ring.circle = function(){
+ var i =2 * π  * R;
+  var π = 3.14;
+  var R = 5;
+  return i =2 * π * R;
+} 
+console.log(ring.circle());
+console.log(ring.radius);
+console.log(ring.bcolor);
+*/
+
+/*
+var Quadrate = {
+    "Length":"25 m",
+    "Width":"30 m",
+    "Height":"45 m"
+}
+*/
+
+/*var D1 = document.getElementsByClassName("Job");
+var D2 = document.getElementById("Job");
+console.log(D1);
+console.log(D2);*/
