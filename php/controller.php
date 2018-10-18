@@ -1,8 +1,11 @@
 <?php
+echo "<h3>";
+echo "Received from the server";
+echo "</h3>";
 
- echo "<p>Hello, World</p>";
- echo ($_POST['Login']);
- echo "<br>";
- echo ($_POST['Password']);
 
+foreach ($_REQUEST as &$value) {
+    echo $value;
+    echo "<br>";
+}
 ?>

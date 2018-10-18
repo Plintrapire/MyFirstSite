@@ -6,6 +6,7 @@
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <link href="css/style.css" rel="stylesheet" type="text/css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="slider/bxslider-4-4.2.12/dist/jquery.bxslider.min.css">
  <title>Lamborghini</title>
 </head>
 <body>
@@ -37,9 +38,12 @@ Lamborghini
             </div>
         </div>
         <div class= reg>
+
         	<div class = reg-txt><h4 align="center">Регистрация</h4>
         	</div>	     
-            <div class = register>
+            
+        </div> 
+        <div class = register>
            
                 <form autocomplete="on">
                     <div class = "form1">
@@ -50,7 +54,6 @@ Lamborghini
                     </div>
                 </form>
              </div>
-        </div> 
         <div class = poisk>
 	        <form>
   <input type="text" placeholder="Искать здесь...">
@@ -199,10 +202,15 @@ Lamborghini
             </div>
         </div>
     </div>
+    <form action = "" id="frm" name="name_form" enctype="multipart/form-data">
+        <input type="text" id="last_name" name="last_name" placeholder="Фамилия" onkeyup="valid_input(this)">
+        <input type="button" onclick="transport_to_server()" value=" Сохранить">
+    </form>
     <footer class = End>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="slider/bxslider-4-4.2.12/dist/jquery.bxslider.min.js"></script>
 </body>
 </html> 	    
             
