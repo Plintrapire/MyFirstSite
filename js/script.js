@@ -420,7 +420,12 @@ $(document).ready(function(){
     slideWidth: 600
 });*/
 
-var marker_once = false; // марке для однократного выполнения функции вывода out_data()
+
+
+
+
+/*
+var marker_once = false; // маркер для однократного выполнения функции вывода out_data()
 var marker_valid_input = false; //для отслеживания валидации полей
 var marker_valid_age = false; //для отслеживания валидации полей
 var br="<br>"; // для форматирования вывода
@@ -590,4 +595,12 @@ function ajax_transport_from_server() // функция обновления д�
         };
      request.send(null);
 
+}
+*/
+
+function melp () {
+  var Email = document.forms["Sign"]["Email"].value;
+  console.log(Email);
+  var parol = document.forms["Sign"]["parol"].value;
+  console.log(parol);
 }
