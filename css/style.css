@@ -223,15 +223,7 @@ border-color: red;
 transform: scale(1.2);
 }
 
-.End 
-{
-height: 5px;
-width: 100%;
-background-color: yellow;
-position: fixed;
-float: left;
-bottom: 0px;
-}
+
 
 .sign-obc{
     width: 348px;
@@ -406,3 +398,43 @@ background-color: #964170;
 
 }
 
+.rabotaclass{
+width: 100%;
+height: 50px;
+background-color: #964170;
+border: 4px solid #b886a8;
+}
+
+.End 
+{
+height: auto;
+width: 100%;
+background-color: #873265;
+float: left;
+bottom: 0px;
+margin-top: 50px;
+}
+
+.End h3 {
+  margin-left: 25px;
+  color: white;
+  margin-left: 15%;
+}
+
+.text_footer{
+ width: 75%;
+ height: auto;
+ margin-left: 15%;
+}
+
+.text_footer1, .text_footer2, .text_footer3, .text_footer4, .text_footer5 {
+  margin-left: 25px;
+ float: left;
+ color: white;
+
+}
+
+.raspolog{
+   width: 35px;
+ height: 35px;
+}
