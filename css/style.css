@@ -1,200 +1,239 @@
-﻿html,body{width:100%; height:100%; margin:0}
+
+
+
 body {
- margin: 0px;
+  background-color: #E6E6FA;
+  height: 100%;
+  width: 100%;
+
 
 }
 
-
-.Job { 
- width: 101%;
- height: 100px;
- display: inline-block;
- background-color: #964170;
- float: left;
- margin-left: -8px;
+html { 
+  font-size: 16px;
 }
+
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: #964170;
+ma
+}
+
+.logo{
+  width: auto;
+  height: 120px;
+  float: left;
+}
+
+.text_lambo{
+  float: left;
+  margin-left: 50%;
+  margin-top: 35px;
+  position: absolute;
+}
+
+
+
+.sign{
+  width: 105px;
+  height: 40px;
+  background-color: #E6E6FA;
+  border-bottom: 3px solid #b886a8;
+
+
+}
+.sign h2,.reg h2{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.reg{
+  width: 170px;
+  height: 40px;
+  background-color: #E6E6FA;
+  border-bottom: 3px solid #b886a8;
+}
+
+
+
+
+
+
 
 .menu {
-width: 10%;
-height: 85px;
-float: left;
-margin-top: 50px;
-margin-left: 3%;
-background-color: #964170;
-
+  height: auto;
+  float: left;
+  margin-top: 50px;
+  margin-left: 3%;
+  background-color: #964170;
 }
   
 .podpunkt{
- width: 10%;;
- height:  250px;
- background-color: #964170;
- display:none;
- text-align: center;
- position: absolute;
+  height:  auto;
+  background-color: #964170;
+  display:none;
+  text-align: center;
+  position: absolute;
 }
 
 .car-obc { 
-width: 75%;
-height: auto;
-float: left;
-margin-top: 50px;
-margin-left: 3%;
+  width: 75%;
+  height: auto;
+  float: right;
+  margin-top: 50px;
 
 }
-.logotip {
-width: 100px;
-height:  100%;
-margin-left: 43px;
-float: left;
-}
-.text1 {}
-.ogo2 {
-width: 100px;
-height: 98px;
+
+.car1,.car2{
+  width: 100%;
+  height: auto;
+  float: left;
 }
 
+.car1-name,.car2-name{
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: #964170;
+}
+.car1-money,.car2-money{
+  width: 100%;
+  height: auto; 
+  float: left;
+  background-color: #964170;
+  margin-top: 15px;
+}
+.car1-obc,.car2-obc{
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: #964170;
+  margin-top: 15px;
+}
+
+.car1-obc-xar{
+  width: 100%;
+  height: auto;
+  display: none;
+  float: left;
+}
+
+.car1-obc-info{
+  height:  auto;
+  background-color: #b886a8;
+  float: left;
+}
+
+.car2-obc-info{
+  height: auto;
+  background-color: #b886a8;
+  float:left;
+}
+
+.car2-obc-xar{
+  width: 100%;
+  height: auto;
+  display: none;
+  float: left;
+}
 
 
-.reg
+
+.End
 {
-width: 125px;
-height: 40px;
-float:	right;
-border-bottom: 3px solid #b886a8;
-margin-right: 60px;
-margin-top: -52px;
-background-color: #E6E6FA;
-
-
+  height: auto;
+  width: 100%;
+  background-color: #873265;
+  float: left;
+  bottom: 0px;
+  margin-top: 50px;
+}
+.End h3 {
+  margin-left: 25px;
+  margin-left: 15%;
+}
+.text_footer{
+  width: 75%;
+  height: auto;
+  margin-left: 15%;
+}
+.text_footer1, .text_footer2, .text_footer3, .text_footer4, .text_footer5 {
+  margin-left: 25px;
+  float: left;
+}
+.raspolog{
+  width: auto;
+  height: 35px;
+}
+.poisk{
+  width: 250px;
+  height: 40px;
+  background-color: rgb(255, 235, 153);
+  border-bottom: 3px solid #ffcc00;
+  float: left;
+  margin-top: 35px;
+  margin-left: 40px;
 }
 
-.sing-txt{
-margin-top: -10px;
-text-align: center;
+.news{
+  width: 250px;
+  height: 40px;
+  background-color: rgb(255, 235, 153);
+  border-bottom: 3px solid #ffcc00;
+  float: left;
 }
 
-.reg-txt {
-font-size: 15pt;
-margin-top: 5px;
-color: #000;
-text-align: center;
-margin-top: -18px;
+.reg-sing-windows{
+  width: 250px;
+  height: 40px;
+  background-color: rgb(255, 235, 153);
+  border-bottom: 3px solid #ffcc00;
+  margin-top: 15px;
 }
-.reg-txt a{
-
-	color: #000;
-	text-decoration: none;
-}
-
-
-
-.car1{
-width: 100%;
-height: 520px;
-float: left;
-
-}
-
-.car2{
-width: 100%;
-height: 520px;
-float: left;
-}
-
-.car1-money{
-width: 100%;
-height: 50px; 
-float: left;
-background-color: #964170;
-margin-top: 15px;
-}
-
-.car2-money{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-margin-top: 15px;
-}
-
-.car1-name{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-}
-
-.car2-name{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-}
-
-.car1-img {
-width: 100%;
-height: 100%;
-
-}
-body{background-color: #E6E6FA}
-
-.form1{
-width: 100%;
-height: 100%;
-margin-left: 8%;
-}
-.reg-sing-windows1{
-margin-top: 15px;
-}
-.reg-sing-windows2{
-margin-top: 15px;
-}.reg-sing-windows3{
-margin-top: 15px;
-}.reg-sing-windows4{
-margin-top: 15px;
-}
-
-
 .register{
-width: 348px;
-height: 235px;
-background-color: #964170;
-top: 109px;
-position: absolute;
-display:none;
-margin-left: 82.5%;
+  width: 295px;
+  height: 250px;
+  background-color: #964170;
+  top: 140px;
+  position: absolute;
+  display:none;
+  right: 0px;
+}
+.sign-obc{
+  width: 295px;
+  height: 190px;
+  background-color: #964170;
+  top: 140px;
+  position: absolute;
+  display: none;
+  right: 0px;
+  }
+.sign-obc input[type="submit"],.register input[type="submit"]{
+  background-color: rgb(255, 235, 153);
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.form1{
+  width: 100%;
+  height: 100%;
+  margin-left: 8%;
 }
 
-
-.poisk {
-
-width: 300px;
-height: auto;
-margin-left: 16%;
-margin-top: -52px;
-}
-
-
-* {box-sizing: border-box;}
-form {
-  width: 300px;
-}
 input, button {
   border: none;
   outline: none;
   background: transparent;
 }
 input {
-  width: 100%;
+  width: 193px;
   height: 40px;
-  padding-left: 15px;
-  background-color: #E6E6FA;
-  border-bottom: 3px solid #b886a8;
 }
-  button {
+button {
   height: 42px;
   width: 42px;
-  position: absolute;
+  float: right;
   top: 0;
   right: 0;
   cursor: pointer;
@@ -205,236 +244,76 @@ button:before {
   font-size: 20px;
   color: #be290e;
 }
+
+
+@media(max-width: 1920px) {
+  .menu {
+    width: 10%;
+  }
+  .podpunkt{
+   width: 10%;
+  }
+  .car1-obc-info{
+    width: 49%;
+  }
+  .car2-obc-info{
+    width: 49%;
+    margin-left: 15px;
+  }
+  .reg,.sign {
+    margin-top: 35px;
+    margin-right: 40px;
+    float: right;
+  }
+  .car-obc{
+    margin-right: 7%;
+  }
 }
 
-.block1{
-width: 200px;
-height:  200px;
-background-color: #00ff38;
-margin-top: -200px;
-transform: rotate(180deg);
-margin-left: 100px;
-transform: rotate(90deg);
+@media(max-width: 1280px) {
+  html {
+    font-size: 14px;
+  }
 }
 
-.block1:hover{
-transform: rotate(180deg);
-border-color: red;
-transform: scale(1.2);
-}
-
-
-
-.sign-obc{
-    width: 348px;
-    height: 180px;
-    background-color: #964170;
-    top: 109px;
-    position: absolute;
-    display: none;
-    margin-left: 82.5%;
-}
-.sign
-{
-width: 75px;
-height: 40px;
-float:  right;
-border-bottom: 3px solid #b886a8;
-margin-right: 215px;
-margin-top: -52px;
-background-color: #E6E6FA;
-}
-
-
-
-.car1-obc{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-margin-top: 15px;
-}
-.car1-obc-xar{
-width: 36%;
-height: auto;
-background-color: #964170;
-display: none;
-position: absolute;
-margin-top: -67px;
-}
-
-.car1-obc-info{
-width: 48%;
-height:  716px;
-background-color: #b886a8;
-float: left;
-}
-
-.car2-obc-info{
-width: 48%;
-height: 716px;
-background-color: #b886a8;
-margin-left: 3%;
-float:left;
+@media(max-width: 1030px) {
+  html {
+    font-size: 13px;
+  }
+  .menu,.podpunkt {
+    width: 17%;
+  }
+  .car1-obc-info{
+    width: 85%;
+  }
+  .car2-obc-info{
+    margin-left: 0px;
+    width: 85%;
+    margin-top: 10%
+  }
+   .car-obc{
+    margin-right: 1%;
+    width: 70%;
+  }
 
 }
 
-.car2-obc{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-margin-top: 15px;
+@media(max-width: 853px) {
+  .reg,.sign {
+    margin-top: 12px;
+  }
+  .poisk{
+    margin-top: 12px;
+  }
 }
 
-.car2-obc-xar{
-width: 36%;
-height: auto;
-background-color: #964170;
-display: none;
-margin-top: -67px;
-position: absolute;
-}
-
-.table {
-width: 100%;
-max-width: 100%;
-margin-bottom: 1rem;
-background-color: transparent;
-}
-
-.car3{
-width: 100%;
-height: 520px;
-float: left;
-}
-.car3-obc-info{
-width: 48%;
-height:  716px;
-background-color: #b886a8;
-float: left;
-margin-top: 3%;
-}
-.car3-name{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-}
-.car3-money{
-width: 100%;
-height: 50px; 
-float: left;
-background-color: #964170;
-margin-top: 15px;
-}
-.car3-obc-xar{
-width: 36%;
-height: auto;
-background-color: #964170;
-display: none;
-position: absolute;
-margin-top: -67px;
-}
-.car3-obc{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-margin-top: 15px;
-}
-
-
-
-.car4-obc-info{
-width: 48%;
-height: 716px;
-background-color: #b886a8;
-margin-left: 3%;
-float:left;
-margin-top: 3%;
-}
-.car4-obc{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-margin-top: 15px;
-}
-
-.car4-obc-xar{
-width: 36%;
-height: auto;
-background-color: #964170;
-display: none;
-margin-top: -67px;
-position: absolute;
-}
-.car4{
-width: 100%;
-height: 520px;
-float: left;
-}
-
-.car4-money{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-margin-top: 15px;
-}
-.car4-name{
-width: 100%;
-height: 50px;
-float: left;
-background-color: #964170;
-}
-
-.Slider
-{
-  width: 1000px;
-  height: 1000px;
-  border: 2px solid red;
-
-}
-
-.rabotaclass{
-width: 100%;
-height: 50px;
-background-color: #964170;
-border: 4px solid #b886a8;
-}
-
-.End 
-{
-height: auto;
-width: 100%;
-background-color: #873265;
-float: left;
-bottom: 0px;
-margin-top: 50px;
-}
-
-.End h3 {
-  margin-left: 25px;
-  color: white;
-  margin-left: 15%;
-}
-
-.text_footer{
- width: 75%;
- height: auto;
- margin-left: 15%;
-}
-
-.text_footer1, .text_footer2, .text_footer3, .text_footer4, .text_footer5 {
-  margin-left: 25px;
- float: left;
- color: white;
-
-}
-
-.raspolog{
-   width: 35px;
- height: 35px;
+@media(max-width: 600px) {
+  .reg,.sign {
+    margin-top: 12px;
+    margin-right: 10px;
+  }
+   .poisk{
+    margin-top: 12px;
+    margin-left: 10px;
+  }
 }
